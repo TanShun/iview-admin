@@ -32,9 +32,8 @@ module.exports = {
                 }
             },
             {
-                test: /iview\/.*?js$/,
-                loader: 'happypack/loader?id=happybabel',
-                exclude: /node_modules/
+                test: /iview\\.*?js$/,
+                loader: 'happypack/loader?id=happybabel'
             },
             {
                 test: /\.js$/,
